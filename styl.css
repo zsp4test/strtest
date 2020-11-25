@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 10, 59);
+    /* kolor tła */
+    background-color: rgb(191, 239, 152);
+    padding: 20px;
+}
+
+div.wyrownanie {
+
+  width: 750px;
+  text-align: left;
+}
+
+h1.glownah {
+  color: white;
+  font-size: 24pt;
+}
+
+/* nieodwiedzony link */
+a:link {
+  /* podgrubienie czcionki */
+  font-weight: bold;
+  /* usuwa podkreślenie linku */
+  text-decoration: none;
+  /* ustawia kolor tekstu na czerwony */
+  color: red;
+}
+
+/* odwiedzony link */
+a:visited {
+  color: green;
+}
+
+/* mysz nad linkiem */
+a:hover {
+  color: hotpink;
+}
+
+/* aktywny link */
+a:active {
+  color: blue;
+} 
